@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Home">
+<listeners>
+<listener class-name="testcasess.listnerrrr"></listener>
+</listeners>
+
+<test name="CreatrAccount">
+
+<parameter name="browser" value="chrome"></parameter>
+<parameter name="url" value="https://www.homedepot.com/"></parameter>
+
+<classes>
+<class name="testdetaa.NewTest"></class>
+</classes>
+</test>
+
+<test name="signinn">
+<parameter name="browser" value="firefox"></parameter>
+<parameter name="url" value="https://www.homedepot.com/"></parameter>
+<classes>
+<class name="testdetaa.NewTest"></class>
+</classes>
+
+</test>
+
+
+</suite>

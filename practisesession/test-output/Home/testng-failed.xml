@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Home]">
+  <listeners>
+    <listener class-name="testcasess.listnerrrr"/>
+  </listeners>
+  <test thread-count="5" name="CreatrAccount(failed)">
+    <parameter name="browser" value="chrome"/>
+    <parameter name="url" value="https://www.homedepot.com/"/>
+    <classes>
+      <class name="testcasess.RunTest">
+        <methods>
+          <include name="afterClass"/>
+          <include name="beforeClass"/>
+          <include name="g"/>
+        </methods>
+      </class> <!-- testcasess.RunTest -->
+    </classes>
+  </test> <!-- CreatrAccount(failed) -->
+  <test thread-count="5" name="signinn(failed)">
+    <parameter name="browser" value="firefox"/>
+    <parameter name="url" value="https://www.homedepot.com/"/>
+    <classes>
+      <class name="testcasess.RunTest">
+        <methods>
+          <include name="afterClass"/>
+          <include name="beforeClass"/>
+          <include name="g"/>
+          <include name="f"/>
+        </methods>
+      </class> <!-- testcasess.RunTest -->
+    </classes>
+  </test> <!-- signinn(failed) -->
+</suite> <!-- Failed suite [Home] -->

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Home" duration-ms="33025" started-at="2020-05-04T15:50:07Z" finished-at="2020-05-04T15:50:40Z">
+    <groups>
+    </groups>
+    <test name="CreatrAccount" duration-ms="16902" started-at="2020-05-04T15:50:07Z" finished-at="2020-05-04T15:50:23Z">
+      <class name="testcasess.RunTest">
+        <test-method status="PASS" signature="beforeClass(java.lang.String, java.lang.String)[pri:0, instance:testcasess.RunTest@22635ba0]" name="beforeClass" is-config="true" duration-ms="6855" started-at="2020-05-04T15:50:07Z" finished-at="2020-05-04T15:50:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.homedepot.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="f()[pri:1, instance:testcasess.RunTest@22635ba0]" name="f" duration-ms="7299" started-at="2020-05-04T15:50:13Z" finished-at="2020-05-04T15:50:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="g()[pri:2, instance:testcasess.RunTest@22635ba0]" name="g" duration-ms="880" started-at="2020-05-04T15:50:22Z" finished-at="2020-05-04T15:50:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- g -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:testcasess.RunTest@22635ba0]" name="afterClass" is-config="true" duration-ms="684" started-at="2020-05-04T15:50:23Z" finished-at="2020-05-04T15:50:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- testcasess.RunTest -->
+    </test> <!-- CreatrAccount -->
+    <test name="signinn" duration-ms="16103" started-at="2020-05-04T15:50:23Z" finished-at="2020-05-04T15:50:40Z">
+      <class name="testcasess.RunTest">
+        <test-method status="PASS" signature="beforeClass(java.lang.String, java.lang.String)[pri:0, instance:testcasess.RunTest@3b07a0d6]" name="beforeClass" is-config="true" duration-ms="5904" started-at="2020-05-04T15:50:23Z" finished-at="2020-05-04T15:50:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.homedepot.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="f()[pri:1, instance:testcasess.RunTest@3b07a0d6]" name="f" duration-ms="7472" started-at="2020-05-04T15:50:29Z" finished-at="2020-05-04T15:50:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="g()[pri:2, instance:testcasess.RunTest@3b07a0d6]" name="g" duration-ms="1071" started-at="2020-05-04T15:50:37Z" finished-at="2020-05-04T15:50:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- g -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:testcasess.RunTest@3b07a0d6]" name="afterClass" is-config="true" duration-ms="1462" started-at="2020-05-04T15:50:38Z" finished-at="2020-05-04T15:50:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- testcasess.RunTest -->
+    </test> <!-- signinn -->
+  </suite> <!-- Home -->
+</testng-results>
